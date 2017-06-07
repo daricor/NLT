@@ -10,7 +10,7 @@
         <script src="./js/bootstrap-filestyle.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
         <script src="https://uxsolutions.github.io/bootstrap-datepicker/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr.min.js"></script>
-
+        <script src="plugin/tinymce/js/tinymce/tinymce.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link rel="stylesheet" href="./css/newsletter.css"/>
@@ -23,7 +23,7 @@
     <body>
         <!-- Configuration de l'application -->
         <?php //require_once './includes/configuration.inc.php'; ?>
-        <?php require_once './controller/system.php';?>
+        <?php require_once './controller/system.php'; ?>
 
         <div class="container">
             <div class="row">
